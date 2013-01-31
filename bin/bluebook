@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 
-require 'bluebook'
+require 'bluebook/cli'
+Bluebook::CLI.start(ARGV)

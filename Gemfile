@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in bluebook.gemspec
 gemspec
+
+gem 'rb-inotify', '0.8.8', :require => false
+gem 'rb-fsevent', :require => false
+gem 'rb-fchange', :require => false

@@ -24,7 +24,7 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = '>= 1.9.3'
 
-  gem.add_dependency 'thor', '~>0.16.0'
+  gem.add_dependency 'thor', '~>0.16'
 
   gem.add_development_dependency 'rspec', '~> 2.0'
   gem.add_development_dependency 'guard-rspec'
